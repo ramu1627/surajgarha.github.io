@@ -1,0 +1,30 @@
+body , html{
+    width: 100%;
+    height: 100%;
+    background: url("Beach.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+#taa{
+    font-weight: 700;
+    border-radius: 200px;
+    text-transform: uppercase;
+    padding: 1em 2em;
+}
+
+.btn-primary{
+    background-color: rgb(204, 125, 21);
+    border-color: rgb(40, 224, 49);
+}
+
+.btn-primary:hover{
+    background-color: rgb(252, 238, 193);
+    border-width: 4px;
+}
